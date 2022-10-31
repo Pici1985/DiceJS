@@ -44,6 +44,7 @@ h1 {
     display: grid;
 }
 
+
 #score4, #button4 {
     color: red;
     text-shadow: 2px 2px 2px black;
@@ -68,3 +69,30 @@ h1 {
     color: indigo;
     text-shadow: 2px 2px 2px black;
 } 
+
+@media (max-width: 450px) {
+    body {
+        background-color: black;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .wrapper {
+        gap: 5px;
+    }
+
+    .btn {
+        height: 100px;
+        font-size: 20px;
+    }
+
+    .score {
+        font-size: 20px;
+    }
+
+    .btn {
+        display: grid;
+    }
+}
